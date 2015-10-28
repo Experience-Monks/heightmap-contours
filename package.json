@@ -18,7 +18,8 @@
     "budo": "^5.1.0",
     "garnish": "^3.2.1",
     "ndarray-fill": "^1.0.1",
-    "simplex-noise": "^2.2.0"
+    "simplex-noise": "^2.2.0",
+    "zeros": "^1.0.0"
   },
   "scripts": {
     "start": "budo demo.js | garnish",
