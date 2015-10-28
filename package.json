@@ -1,0 +1,46 @@
+{
+  "name": "heightmap-contours",
+  "version": "1.0.0",
+  "description": "Generate a series of 2D contour meshes over a heightmap",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "dependencies": {
+    "ndarray": "^1.0.18",
+    "ndarray-ops": "^1.2.2",
+    "surface-nets": "^1.0.2"
+  },
+  "devDependencies": {
+    "budo": "^5.1.0",
+    "garnish": "^3.2.1",
+    "ndarray-fill": "^1.0.1",
+    "simplex-noise": "^2.2.0"
+  },
+  "scripts": {
+    "start": "budo demo.js | garnish",
+    "bundle": "browserify demo.js -o bundle.js"
+  },
+  "keywords": [
+    "contour,",
+    "heightmap,",
+    "ecosystem:stackgl,",
+    "generate,",
+    "mesh,",
+    "procedural,",
+    "pcg,",
+    "simplicial,",
+    "complex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/heightmap-contours.git"
+  },
+  "homepage": "https://github.com/hughsk/heightmap-contours",
+  "bugs": {
+    "url": "https://github.com/hughsk/heightmap-contours/issues"
+  }
+}
