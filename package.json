@@ -38,10 +38,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/heightmap-contours.git"
+    "url": "git://github.com/Jam3/heightmap-contours.git"
   },
-  "homepage": "https://github.com/hughsk/heightmap-contours",
+  "homepage": "https://github.com/Jam3/heightmap-contours",
   "bugs": {
-    "url": "https://github.com/hughsk/heightmap-contours/issues"
+    "url": "https://github.com/Jam3/heightmap-contours/issues"
   }
 }
